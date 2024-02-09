@@ -337,9 +337,10 @@ nav{
 
 .heading{
     display: flex;
-    justify-content: start;
-    margin-left: 200px;
+    justify-content: space-evenly;
+    margin-left: px;
     padding: 0;
+    background-color: red;
 }
 
 #see_all_button{
@@ -351,3 +352,123 @@ nav{
 #h3_letsgo{
     font-size: 50px;
 }
+
+#p_letsgo{
+    font-size: 25px;
+}
+
+
+.London{
+    background-color: white;
+    width: 21.7%;
+    
+    height: 100%;
+}
+.london_image{
+    background-image: url(../images/Rectangle\ 5.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    width: 100%;
+    height: 100%;
+    
+}
+
+
+.Columbia{
+    background-color: white;
+    width: 21.8%;
+    
+    height: 100%;
+}
+.columbia_image{
+    background-image: url(../images/Rectangle\ 6.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+
+
+
+.Paris{
+    background-color: white;
+    width: 21.7%;
+    
+    height: 100%;
+}
+.paris_image{
+    background-image: url(../images/Rectangle\ 4.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+
+
+
+.molbourne{
+    background-color: white;
+    width: 19.65%;
+    
+    height: 100%;
+}
+.molbourne_image{
+    background-image: url(../images/Rectangle\ 3.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+
+
+.sugestions{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 720px;
+    
+
+}
+p{
+    font-size: 25px;
+}
+
+.fall_into_travel{
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
+    margin: 5%;
+}
+
+
+#heading_h1_fall_into{
+    font-size: 50px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
