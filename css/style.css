@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
     
 }
 
@@ -242,7 +243,7 @@ nav{
 
 .james_doe{
     display: flex;
-    background-color: aqua;
+    background-color: white;
     width: 300px;
     height: 120px;
     padding: 10px;
@@ -337,17 +338,10 @@ nav{
 
 .heading{
     display: flex;
-    justify-content: space-evenly;
-    margin-left: px;
-    padding: 0;
-    background-color: red;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
 }
-
-#see_all_button{
-    display: flex;
-    margin-left: 1000px;
-}
-
 
 #h3_letsgo{
     font-size: 50px;
@@ -371,7 +365,15 @@ nav{
     display: flex;
     width: 100%;
     height: 100%;
-    
+    transition: transform 0.3s ease;
+}
+
+.London a {
+    cursor: default;
+}
+
+.London:hover .london_image {
+    transform: scale(1.05);
 }
 
 
@@ -388,9 +390,16 @@ nav{
     display: flex;
     width: 100%;
     height: 100%;
+    transition: transform 0.3s ease;
 }
 
+.Columbia a {
+    cursor: default;
+}
 
+.Columbia:hover .columbia_image {
+    transform: scale(1.05);
+}
 
 .Paris{
     background-color: white;
@@ -405,25 +414,40 @@ nav{
     display: flex;
     width: 100%;
     height: 100%;
+    transition: transform 0.3s ease;
 }
 
+.Paris a {
+    cursor: default;
+}
 
+.Paris:hover .paris_image {
+    transform: scale(1.05);
+}
 
-.molbourne{
+.melbourne{
     background-color: white;
-    width: 19.65%;
+    width: 21.75%;
     
     height: 100%;
 }
-.molbourne_image{
+.melbourne_image{
     background-image: url(../images/Rectangle\ 3.png);
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
     width: 100%;
     height: 100%;
+    transition: transform 0.3s ease;
 }
 
+.melbourne a {
+    cursor: default;
+}
+
+.melbourne:hover .melbourne_image {
+    transform: scale(1.05);
+}
 
 .sugestions{
     display: flex;
@@ -441,15 +465,116 @@ p{
     width: 90%;
     display: flex;
     justify-content: center;
-    align-items: center;
     flex-flow: column;
     margin: 5%;
+}
+
+.heading_1{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
 
 
 #heading_h1_fall_into{
     font-size: 50px;
 }
+
+.see_all_button{
+    border: solid 1px rgba(141, 211, 187, 1);
+
+    border-radius: 10px;
+    padding: 20px 80px;
+    background-color: white;
+    font-size: 25px
+
+}
+
+
+.lets_go_texts{
+    display: flex;
+    margin-left: 5%;
+    flex-flow: column;
+    justify-content: center;
+}
+
+#see_all_fall_into_div{
+    margin-right: 2.5%;
+}
+
+
+#see_all_lets_go_div{
+    margin-right: 5%;
+}
+
+
+
+.text_fall_into{
+    margin-left: 2.5%;
+}
+
+
+.text_section_2{
+    display: flex;
+    justify-self: center;
+    flex-flow: column;
+    background-color: rgba(0, 0, 255, 0);
+    width: 100%;
+    
+}
+
+
+
+a{
+    text-decoration: none;
+}
+
+.text_price_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 255, 255, 0);
+    height: 20%;
+    margin-top: 90%;
+    width: 90%;
+
+}
+
+.columbia_image,
+.melbourne_image,
+.paris_image,
+.london_image{
+    display: flex;
+    align-items: center;
+    flex-flow: column;
+}
+
+.book_flight{
+    border: none;
+    border-radius: 10px;
+    padding: 20px 150px;
+    background: rgba(141, 211, 187, 1);    
+    font-size: 25px;
+}
+
+.price{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 20px;
+}
+
+.section_2_prices,
+.countries_name{
+    font-size: 45px;
+    color: white;
+}
+
+.section_2_p{
+    font-size: 25px;
+    color: white;
+}
+
 
 
 
