@@ -45,6 +45,9 @@
     flex-wrap: wrap;
 }
 
+.Melbourne{
+    
+}
 
 .melbourne a {
     cursor: default;
@@ -64,7 +67,9 @@
     transition: transform 0.3s ease;
 }
 
+.Paris{
 
+}
 
 .Paris a {
     cursor: default;
@@ -86,7 +91,9 @@
     transition: transform 0.3s ease;
 }
 
-
+.London{
+    
+}
 
 .London a {
     cursor: default;

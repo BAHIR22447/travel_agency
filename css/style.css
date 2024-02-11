@@ -585,6 +585,7 @@ a{
 }
 
 
+
 .sugestion{
     display: flex;
     flex-flow: wrap;
@@ -626,8 +627,6 @@ a{
     flex-flow: column;
     align-items: center;
     justify-content: center;
-
-
 }
 
 
@@ -637,7 +636,6 @@ a{
     align-items: center;
     width: 100%;
     height: 40%;
-
 }
 
 .heading_price{
